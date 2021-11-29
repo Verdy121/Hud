@@ -1,0 +1,63 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+* {padding: 0; margin: 0; box-sizing: box-shadow; font-family: 'Rajdhani', sans-serif;}
+
+.playerStats{
+  position: relative;
+  top: 15px;
+  left: 27%;
+  transform-origin: left;
+  transform: translatex(170px);
+
+
+  display : flex;
+  justify-content: space-around;
+  align-items: center;
+
+  font-family: 'Rajdhani', sans-serif;
+  font-size  : 15px;
+  color      : rgb(255, 255, 255);
+  text-shadow: 2px 1px 3px #000000;
+
+  width: 35em; 
+  height: 0.05em;
+
+  background-color: rgba(0, 0, 0, 0.658);
+  padding: 18px;
+  border-radius: 8px 8px 8px 8px;
+  box-shadow: 0px 0px 9px 0px #ecc900;
+  /*border-bottom: 1px solid rgb(105, 25, 143);*/
+
+
+}
+}
+
+.stat{
+	color: rgb(105, 25, 143);
+	width: 220px;
+	height: 20px;
+	position: relative;
+	margin-bottom: 15px;
+	box-shadow: 0 10px 15px rgba(255,255,255,255.0);
+}
+
+.stat .icon{
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	position: relative;
+	display: inline-block;
+	right: 5px;
+}
+
+.stat .icon i, .stat .icon img{
+	position: absolute;
+	top: 73%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.stat .icon img{
+	height: 20px;
+	width: 38px;
+}
+
